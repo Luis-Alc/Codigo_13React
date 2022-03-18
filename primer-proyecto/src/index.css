@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title{
+  color: #999;
+  font-size: 1.5em;
+}
+.card-pokemon{
+  max-width: 300px;
+  min-height: 400px;
+  max-height: 400px;
+}
+.center{
+  text-align: center;
+}
+.img-pokemon {
+  min-height: 250px;
+  max-height: 250px;
+  object-fit: contain !important;
+  margin-top: 15px;
+}
+.name-pokemon {
+  text-transform: uppercase;
+  text-align: center;
+}
